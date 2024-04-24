@@ -559,9 +559,9 @@ const AssistantTab = ({
 				<TabsTrigger className="flex-1" value={TabNames.MODGPT}>
 					ModGPT
 				</TabsTrigger>
-				<TabsTrigger className="flex-1" value={TabNames.AST}>
-					AST
-				</TabsTrigger>
+				{/*<TabsTrigger className="flex-1" value={TabNames.AST}>*/}
+				{/*	AST*/}
+				{/*</TabsTrigger>*/}
 				<TabsTrigger className="flex-1" value={TabNames.DEBUG}>
 					<LiveIcon />
 					Debug
@@ -575,11 +575,11 @@ const AssistantTab = ({
 				ref={scrollContainerRef}
 			>
 				<PanelGroup direction="horizontal">
-					<AstSection
-						panels={[beforePanel, afterPanel]}
-						engine={engine}
-						panelRefs={panelRefs}
-					/>
+					{/*<AstSection*/}
+					{/*	panels={[beforePanel, afterPanel]}*/}
+					{/*	engine={engine}*/}
+					{/*	panelRefs={panelRefs}*/}
+					{/*/>*/}
 				</PanelGroup>
 			</TabsContent>
 
